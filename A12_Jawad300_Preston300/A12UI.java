@@ -5,6 +5,7 @@ public class A12UI extends JFrame {
 
     public A12UI() {
 
+        
         setTitle("Picross");
         setSize(700, 700);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -64,6 +65,7 @@ public class A12UI extends JFrame {
                 centerPanel.add(button);
             }
         }
+        //add langauges
 
         JPanel rightPanel = new JPanel();
         rightPanel.setBackground(Color.ORANGE);
